@@ -9,6 +9,12 @@ router.post("/", (req, res, next) => {
   let skills = req.body.skills;
   let id = uuidv1();
 
+  if (!name || !skills) {
+    res.status(400).json({
+      message: "Bad Request"
+    });
+  }
+
   let candidateData = {
     id: id,
     name: name,
@@ -101,6 +107,7 @@ router.get("/search", (req, res, next) => {
         match: match
       });
     });
+
     results.sort((a, b) => (a.match > b.match ? -1 : 1));
     let bestMatch = results[0];
     res.status(200).json({
