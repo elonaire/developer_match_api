@@ -1,0 +1,17 @@
+[
+  {
+    "id": "e0afa1d0-2eac-11e9-936d-071736c53cce",
+    "name": "Elon Aseneka",
+    "skills": "js, java, kotlin"
+  },
+  {
+    "id": "09a021a0-2ead-11e9-863d-519d8c5eafa2",
+    "name": "Jeff",
+    "skills": "javascript,c#, c,php"
+  },
+  {
+    "id": "79c45d10-2eae-11e9-b9e6-2b6359ffd2d7",
+    "name": "Charity Kegehi",
+    "skills": "c++,cobol,python"
+  }
+]
